@@ -1,0 +1,62 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SKOVANNIY OBSID TEAM animated banner">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="46%" r="72%">
+      <stop offset="0%" stop-color="#163044"/>
+      <stop offset="42%" stop-color="#08111c"/>
+      <stop offset="100%" stop-color="#02040a"/>
+    </radialGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d9ff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#00d9ff"/>
+      <stop offset="100%" stop-color="#00d9ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2b40" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ff2b40"/>
+      <stop offset="100%" stop-color="#ff2b40" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="420" fill="url(#core)"/>
+  <g opacity="0.48">
+    <path d="M-120 390 L420 -40" stroke="url(#cyan)" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate" from="-120 0" to="1420 0" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-220 450 L300 -60" stroke="url(#red)" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="1500 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-80 460 L500 -20" stroke="url(#cyan)" stroke-width="1.5">
+      <animateTransform attributeName="transform" type="translate" from="520 0" to="-980 0" dur="10s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="194" cy="76" r="2.5" fill="#00d9ff">
+      <animate attributeName="opacity" values=".25;1;.25" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1038" cy="92" r="2.5" fill="#ff2b40">
+      <animate attributeName="opacity" values="1;.18;1" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="992" cy="320" r="2" fill="#9b7bff">
+      <animate attributeName="opacity" values=".2;.9;.2" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="276" cy="308" r="2" fill="#00d9ff">
+      <animate attributeName="opacity" values=".15;1;.15" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g transform="translate(640 206)" text-anchor="middle">
+    <text y="-12" font-family="Arial Black, Arial, sans-serif" font-size="94" font-weight="900" letter-spacing="3" fill="#edfaff" filter="url(#glow)">SKOVANNIY</text>
+    <rect x="-170" y="42" width="340" height="56" rx="8" fill="#050b12" stroke="#00d9ff" stroke-opacity=".75"/>
+    <text y="80" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#ff4d5f" filter="url(#glow)">OBSID TEAM</text>
+    <text y="132" font-family="Arial, sans-serif" font-size="24" fill="#9ed8ec">code / security / automation / dark-glass interfaces</text>
+  </g>
+  <rect x="0" y="0" width="1280" height="420" fill="none" stroke="#00d9ff" stroke-opacity=".18"/>
+  <rect x="0" y="210" width="1280" height="2" fill="#00d9ff" opacity=".28">
+    <animate attributeName="y" values="28;390;28" dur="5.4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
