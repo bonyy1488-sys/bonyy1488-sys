@@ -1,16 +1,34 @@
-## Hi there 👋
+<p align="center">
+  <img src="./assets/skovanniy-animated-banner.svg" alt="SKOVANNIY animated OBSID TEAM banner" width="100%" />
+</p>
 
-<!--
-**bonyy1488-sys/bonyy1488-sys** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1 align="center">skovanniy</h1>
 
-Here are some ideas to get you started:
+<p align="center">
+  <b>OBSID TEAM</b> · code, security, automation, and dark-glass interfaces
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="https://img.shields.io/badge/TEAM-OBSID-ff2b40?style=for-the-badge" alt="OBSID TEAM" />
+  <img src="https://img.shields.io/badge/STYLE-OBSIDIAN_//_CYAN-00d9ff?style=for-the-badge" alt="Obsidian cyan style" />
+  <img src="https://img.shields.io/badge/FOCUS-BUILDING-9b7bff?style=for-the-badge" alt="Building" />
+</p>
+
+```txt
+SKOVANNIY // OBSID TEAM
+> building sharp tools
+> breaking noisy problems into clean systems
+> shipping with style
+```
+
+### About
+
+I build clean, sharp, and useful things: automation, security-minded tools, bots, interfaces, and experiments.
+
+### Stack / Interests
+
+`Python` · `JavaScript` · `TypeScript` · `Node.js` · `Git` · `Linux` · `Automation` · `Security`
+
+### Contact
+
+Open to team projects, experiments, and collabs under **OBSID TEAM**.
